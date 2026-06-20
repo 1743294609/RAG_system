@@ -1,0 +1,40 @@
+# 虚拟环境
+venv/
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# 数据
+data/
+*.pdf
+!README.md
+*.json
+*.docx
+*.xlsx
+
+# 日志
+*.log
+logs/
+
+# Docker
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Streamlit
+.streamlit/
+
+# 其他
+.DS_Store
+Thumbs.db
